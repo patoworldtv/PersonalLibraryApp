@@ -13,7 +13,6 @@
 * **UI And Views:** MainActivity, custom BookAdapter for RecyclerViews, and tailored XML layout files. 
 # Project Structure
 *Here is a quick look at how the project is organized:*
-## Project Structure
 ```text
 PersonalLibraryApp/
 ├── src/
