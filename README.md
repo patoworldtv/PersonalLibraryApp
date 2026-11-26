@@ -13,25 +13,31 @@
 * **UI And Views:** MainActivity, custom BookAdapter for RecyclerViews, and tailored XML layout files. 
 # Project Structure
 *Here is a quick look at how the project is organized:*
-* src/
-* ├── main/
-* ├── java/com/example/personallibraryapp/
-* │   │   ├── data/
-* │   │   │   ├── Author.kt                  # Author entity definition
-* │   │   │   ├── AuthorDao.kt               # Data Access Object for authors
-* │   │   │   ├── Book.kt            # Book entity definition
-* │   │   │   ├── BookDao.kt         # Data Access Object for books
-* │   │   │   ├── LibraryDatabase.kt # Room database instance
-* │   │   │   └── LibraryRepository.kt # Single source of truth repository
-* │   │   ├── BookAdapter.kt         # RecyclerView adapter for displaying books
-* │   │   ├── LibraryViewModel.kt    # ViewModel managing UI-related data
-* │   │   ├── MainActivity.kt        # Entry point activity
-* │   │   └── SettingsManager.kt     # Handles user preferences/settings
-* │   ├── res/
-* │   │   ├── layout/                # UI layouts (activity_main.xml, item_book.xml)
-* │   │   ├── values/                # App themes, colors, and string resources
-* │   │   └── mipmap/                # Application launcher icons
-* │   └── AndroidManifest.xml        # Core app manifest configuration
+## Project Structure
+```text
+PersonalLibraryApp/
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/personallibraryapp/
+│   │   │   ├── data/
+│   │   │   │   ├── Author.kt            # Author entity model
+│   │   │   │   ├── AuthorDao.kt         # Data Access Object for authors
+│   │   │   │   ├── Book.kt              # Book entity model
+│   │   │   │   ├── BookDao.kt           # Data Access Object for books
+│   │   │   │   ├── LibraryDatabase.kt   # Room database configuration
+│   │   │   │   └── LibraryRepository.kt # Single source of truth repository
+│   │   │   ├── BookAdapter.kt           # RecyclerView adapter for book items
+│   │   │   ├── LibraryViewModel.kt      # ViewModel managing UI state
+│   │   │   ├── MainActivity.kt          # Main entry point activity
+│   │   │   └── SettingsManager.kt       # App preferences and settings manager
+│   │   ├── res/
+│   │   │   ├── layout/                  # XML layouts (activity_main.xml, item_book.xml)
+│   │   │   ├── values/                  # Strings, colors, and themes
+│   │   │   └── mipmap/                  # Application launcher icons
+│   │   └── AndroidManifest.xml          # Core app manifest configuration
+│   ├── test/                            # Local unit tests
+│   └── androidTest/                     # Instrumented UI tests
+```
 # Getting Started
 *Want to run this project on your machine? Follow these simple steps:*
 * **Clone or Download** this repository to your local computer.
