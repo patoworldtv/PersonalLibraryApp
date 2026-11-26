@@ -17,8 +17,8 @@
 * ├── main/
 * ├── java/com/example/personallibraryapp/
 * │   │   ├── data/
-* │   │   │   ├── Author.kt          # Author entity definition
-* │   │   │   ├── AuthorDao.kt       # Data Access Object for authors
+* │   │   │   ├── Author.kt                  # Author entity definition
+* │   │   │   ├── AuthorDao.kt               # Data Access Object for authors
 * │   │   │   ├── Book.kt            # Book entity definition
 * │   │   │   ├── BookDao.kt         # Data Access Object for books
 * │   │   │   ├── LibraryDatabase.kt # Room database instance
