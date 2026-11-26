@@ -1,4 +1,4 @@
-# PersonalLibraryApp
+# Personal Library App
 * Welcome to PersonalLibraryApp! Whether you're an avid reader looking to organize your physical or digital shelf, or a developer exploring clean Android architecture, this app is designed to make book and author management a breeze. Built natively in Kotlin, it offers a smooth, reliable, and completely offline first experience.
 ## What It Does
 * **Book Cataloging:** Effortlessly add, browse, and manage books in your personal library.
